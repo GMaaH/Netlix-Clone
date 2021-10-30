@@ -1,0 +1,42 @@
+@media screen and (min-width:100px) and (max-width:900px){
+
+    .container-header{
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 10px;
+        padding-right: 2px; 
+        padding-left: 2px;    
+    }
+
+    .container-header nav {
+        display: flex;
+        padding-right: 2px;
+        min-width: 100%;
+        justify-content: space-between;
+    }
+
+    .titulo{
+        padding-top: 15px;
+    }
+
+    .descricao{
+        font-size: 70%;
+        padding-top: 0;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 5%;
+        padding-right: 0px;
+    }
+
+    div .filme-principal{
+        max-height: 350px;  
+    }
+    
+    .botoes{
+        padding-top: 5px;
+        border-left-width: 15px;
+        padding-left: 10px;
+    }
+
+}
+

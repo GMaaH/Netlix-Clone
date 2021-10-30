@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* elementos base */
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background: #121212;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    margin-top: 10px;    
+    margin-left: 10px;
+
+   
+}
+
+header .logo{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    
+}
+
+.gradient {
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    /* fundo gradiente */
+    background-image: linear-gradient(#3047f0, #8406d6);
+    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
+  }
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url('/IMG/capa-interstellar.jpg');
+    height: 60vh;
+    display: block;
+    background-size:cover;
+    background-position-y: 70%;
+    font-family: 'Roboto Mono', monospace;  
+    
+}
+
+
+.titulo{
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.descricao{
+    font-size: 16px;
+    padding-top: 15px;
+    text-align:left;
+    margin-left: 10px;
+    padding-right: 20%;
+
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+
+a.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    
+}
+
+a.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+a.botao i{
+    margin-right: 0px;
+}
+
+
+h3.titulo .descricao .botoes{
+    margin-left: 10px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    padding: 0;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
