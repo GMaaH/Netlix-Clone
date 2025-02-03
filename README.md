@@ -1,6 +1,6 @@
 # Netflix Clone
 
-![Netflix Clone Banner](https://via.placeholder.com/1000x300?text=Netflix+Clone)
+![spaceflix](https://user-images.githubusercontent.com/66480371/139543225-f110702b-a931-4eb5-a623-588bd2080cc1.PNG)
 
 ## 📌 Sobre o Projeto
 
@@ -85,6 +85,3 @@ Desenvolvido por **[Marcela Gonçalves](https://github.com/GMaaH)**.
 💡 *Esse projeto foi desenvolvido para fins educacionais e de aprendizado.*
 
 
- 
- - # Layout final
-![spaceflix](https://user-images.githubusercontent.com/66480371/139543225-f110702b-a931-4eb5-a623-588bd2080cc1.PNG)
