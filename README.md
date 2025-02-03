@@ -1,46 +1,44 @@
-# Netflix Clone
+# SPACEFLIX - Clone da Netflix
 
 ![spaceflix](https://user-images.githubusercontent.com/66480371/139543225-f110702b-a931-4eb5-a623-588bd2080cc1.PNG)
 
 ## 📌 Sobre o Projeto
 
-O **Netflix Clone** é uma reprodução da interface da Netflix, desenvolvida para fins de estudo e aprimoramento de habilidades em desenvolvimento web. O projeto busca simular a experiência visual e interativa da plataforma de streaming, utilizando tecnologias modernas.
+O **Spaceflix** é um clone da interface da Netflix, desenvolvido para fins de estudo e aprimoramento de habilidades em desenvolvimento web. O projeto traz um layout moderno e responsivo, permitindo que os usuários naveguem por categorias de filmes e séries.
 
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5
-- CSS3
+- CSS3 (Incluindo responsividade)
 - JavaScript
-- React.js
-- API TMDb (The Movie Database)
+- FontAwesome (para ícones)
+- Owl Carousel (para carrossel de filmes)
 
-## 🎥 Demonstração
-
-> Adicione aqui imagens ou GIFs do projeto em funcionamento.
 
 ## 📂 Estrutura do Projeto
 
-```markdown
-Netflix-Clone/
-│-- public/
-│-- src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── styles/
-│   ├── App.js
-│   ├── index.js
+```Spaceflix/
+│-- IMG/
+│-- Style/
+│   ├── main.css
+│   ├── responsive.css
+│   ├── owl/
+│       ├── owl.carousel.min.css
+│       ├── owl.theme.default.min.css
+│-- js/
+│   ├── owl/
+│       ├── jquery.min.js
+│       ├── owl.carousel.min.js
+│       ├── setup.js
+│-- index.html
 │-- .gitignore
-│-- package.json
 │-- README.md
 ```
 
 ## 📖 Como Executar o Projeto
 
 ### 📌 Pré-requisitos
-Certifique-se de ter instalado em sua máquina:
-- [Node.js](https://nodejs.org/)
-- Gerenciador de pacotes npm ou yarn
+É necessário ter um navegador atualizado para rodar o projeto corretamente.
 
 ### 🎯 Passos para execução
 1. Clone o repositório:
@@ -51,14 +49,15 @@ Certifique-se de ter instalado em sua máquina:
    ```sh
    cd Netlix-Clone
    ```
-3. Instale as dependências:
-   ```sh
-   npm install  # ou yarn install
-   ```
-4. Execute o projeto:
-   ```sh
-   npm start  # ou yarn start
-   ```
+3. Abra o arquivo  ```index.html``` no navegador.
+   
+
+## 🎬 Funcionalidades
+
+- Interface inspirada na Netflix.
+- Carrossel interativo de filmes.
+- Design responsivo.
+- Botões para assistir trailers e acessar mais informações.
 
 
 ## 🤝 Contribuição
@@ -77,8 +76,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 Desenvolvido por **[Marcela Gonçalves](https://github.com/GMaaH)**.
-
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/GMaaH)
 
 ---
 
